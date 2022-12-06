@@ -1,3 +1,16 @@
 extensions:
   aem/cf-console-admin/1:
     $include: src/aem-cf-console-admin-1/ext.config.yaml
+
+configManifest:
+  - label: 'Slack webhook URL'
+    input: 'text'
+    mapToEnv: 'EVENT_PROVIDER_ID'
+
+  - label: 'Slack channel'
+    input: 'text'
+    mapToEnv: 'SLACK_CHANNEL'
+
+  - label: 'Slack OAuth token'
+    input: 'text'
+    mapToEnv: 'SLACK_OAUTH_TOKEN'
