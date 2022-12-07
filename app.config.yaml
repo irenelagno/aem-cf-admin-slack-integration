@@ -5,7 +5,7 @@ extensions:
 configManifest:
   - label: 'Slack webhook URL'
     input: 'text'
-    mapToEnv: 'EVENT_PROVIDER_ID'
+    mapToEnv: 'SLACK_WEBHOOK'
 
   - label: 'Slack channel'
     input: 'text'
