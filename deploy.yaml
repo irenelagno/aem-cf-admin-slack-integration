@@ -1,0 +1,9 @@
+application:
+  id: AEMSlackintegration
+  version: 1.0.0
+  cliVersion: @adobe/aio-cli@9.1.1
+
+extensions:
+  - extensionPointId: aem/cf-console-admin/1
+
+runtime: true
